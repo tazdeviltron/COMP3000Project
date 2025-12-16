@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FinalYear</string>
+    <string name="username">username</string>
+    <string name="login">login</string>
+    <string name="hint">hint</string>
+    <string name="Username1">Username</string>
+    <string name="Password1">Password</string>
+    <string name="password">password</string>
 </resources>
