@@ -10,12 +10,36 @@
     tools:context=".login">
 
 
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="269dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logintext" />
+
     <TextView
         android:id="@+id/logintext"
         android:layout_width="184dp"
         android:layout_height="56dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="43dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
         android:text="@string/login"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +59,8 @@
         android:id="@+id/submit"
         android:layout_width="109dp"
         android:layout_height="62dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginBottom="152dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="248dp"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
