@@ -40,6 +40,14 @@ public class login extends AppCompatActivity {
             String username = usernameEditText.getText().toString();
             String password = passwordEditText.getText().toString();
             // Handle login logic
+            dbHelper.checkUser(username, password);
+            if (dbHelper.checkUser(username, password)) {
+                Intent intent = new Intent(login.this, MainActivity.class);
+                startActivity(intent);
+            }
+            else{
+                usernameEditText.setError("Invalid username or password");
+            }
         });
         
         RegButton.setOnClickListener(view -> {
