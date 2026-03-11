@@ -13,12 +13,131 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="sex"
+                app:layout_constraintStart_toEndOf="@+id/textView12"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+            <EditText
+                android:id="@+id/editTextNumber3"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="9dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Chest pain type"
+                app:layout_constraintStart_toEndOf="@+id/textView13"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+            <EditText
+                android:id="@+id/editTextNumber4"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Blood Pressure"
+                app:layout_constraintStart_toEndOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+            <EditText
+                android:id="@+id/editTextNumber5"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="18dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Cholesterol"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
+            <EditText
+                android:id="@+id/editTextNumber6"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="FBS"
+                app:layout_constraintStart_toEndOf="@+id/textView16"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+
+            <EditText
+                android:id="@+id/editTextNumber7"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="1dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="EKG"
+                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber6" />
+
+            <EditText
+                android:id="@+id/editTextNumber8"
+                android:layout_width="221dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Heart Rate"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber7" />
+
+            <EditText
+                android:id="@+id/editTextNumber12"
+                android:layout_width="221dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Slope of ST"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber10" />
+
+            <EditText
+                android:id="@+id/editTextNumber9"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Exercise angina"
+                app:layout_constraintStart_toEndOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber8" />
+
+            <EditText
+                android:id="@+id/editTextNumber10"
+                android:layout_width="218dp"
+                android:layout_height="62dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="92dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="ST depression"
+                app:layout_constraintStart_toEndOf="@+id/textView19"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber8" />
+
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="256dp"
                 android:layout_height="64dp"
-                android:layout_marginStart="34dp"
-                android:layout_marginTop="35dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
                 android:text="Risk Score Info"
                 android:textSize="34sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +154,161 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="18dp"
+                android:text="Sex:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <EditText
+                android:id="@+id/editTextNumber11"
+                android:layout_width="221dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="22dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Number of vessels fluro"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber12" />
+
+            <EditText
+                android:id="@+id/editTextNumber13"
+                android:layout_width="221dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="88dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="Tallium Heart"
+                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNumber12" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Chest pain type:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:text="BP:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Cholesterol:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="FBS Over 120:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:text="EKG Results:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="15dp"
+                android:text="Max HR:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="Exercise angina:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="13dp"
+                android:text="ST depression:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="17dp"
+                android:text="Slope of ST:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Number of vessels fluro::"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="140dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="80dp"
+                android:text="Tallium Heart:"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
             <EditText
                 android:id="@+id/editTextNumber"
                 android:layout_width="218dp"
@@ -46,6 +320,26 @@
                 android:text="age"
                 app:layout_constraintStart_toEndOf="@+id/textView9"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="118dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/submit"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="43dp"
+                android:text="Home"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
