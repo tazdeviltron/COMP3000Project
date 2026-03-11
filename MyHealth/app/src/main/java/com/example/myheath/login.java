@@ -1,7 +1,8 @@
 package com.example.myheath;
+
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
-//import android.database.Cursor;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -34,12 +35,16 @@ public class login extends AppCompatActivity {
         passwordEditText = findViewById(R.id.editTextPassword);
         Button loginButton = findViewById(R.id.submit);
         Button RegButton = findViewById(R.id.newuser);
+        
         loginButton.setOnClickListener(view -> {
             String username = usernameEditText.getText().toString();
             String password = passwordEditText.getText().toString();
+            // Handle login logic
         });
-        RegButton.setOnClickListener(view ->{
-            setContentView(R.layout.regpage);
+        
+        RegButton.setOnClickListener(view -> {
+            Intent intent = new Intent(login.this, Reg.class);
+            startActivity(intent);
         });
     }
 }
